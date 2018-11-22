@@ -8,6 +8,8 @@
         Bsmart Group
     </author>
     <content src="index.html" />
+    <preference name="SplashScreen" value="screen.gif"/>
+    <preference name="SplashScreenDelay" value="9000" />
     <preference name="DisallowOverscroll" value="true" />
     <preference name="android-minSdkVersion" value="14" />
     <plugin name="cordova-plugin-battery-status" source="npm" spec="~1.2.4" />
