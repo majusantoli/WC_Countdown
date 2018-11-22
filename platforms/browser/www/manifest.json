@@ -1,0 +1,17 @@
+{
+  "background_color": "#FFF",
+  "display": "standalone",
+  "name": "WC Countdown",
+  "short_name": "WC Countdown",
+  "version": "br.com.wccountdown.app",
+  "description": "Aplicativo para a contagem regressiva para a próxima copa!",
+  "author": "Bsmart Group",
+  "icons": [
+    {
+      "src": "www/img/logo.png",
+      "type": "image/png",
+      "sizes": "undefinedxundefined"
+    }
+  ],
+  "start_url": "index.html"
+}
