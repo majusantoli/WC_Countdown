@@ -40,7 +40,7 @@
             <li><button class="btn" onclick="openBrowser()"><i class="fas fa-link"></i> Nosso site</button></li>
         </ul>
     </div>
-    <div class="app">
+    <div class="app" id="deviceready">
             <span id="contador"></span>
     </div>
     <div class="footer">
@@ -51,6 +51,12 @@
     <script type="text/javascript" src="js/relogio.js"></script>
     <script type="text/javascript">
         app.initialize();
+    </script>
+        <script type="text/javascript">
+        document.addEventListener("deviceready", onDeviceReady, false);
+            function onDeviceReady() {
+              navigator.splashscreen.show();
+            }
     </script>
 </body>
 
