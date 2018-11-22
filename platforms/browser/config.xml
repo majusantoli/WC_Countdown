@@ -15,10 +15,10 @@
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
-    <icon src="www/img/logo.png" />
+    <icon height="150" platform="browser" src="www/res/icon/windows/Square150x150Logo.scale-100.png" width="150" />
+    <preference name="SplashScreen" value="screen.gif" />
+    <preference name="SplashScreenDelay" value="9000" />
+    <preference name="SplashScreenBackgroundColor" value="white" />
     <preference name="DisallowOverscroll" value="true" />
     <preference name="android-minSdkVersion" value="14" />
-    <preference name="SplashScreen" value="screen.gif" />
-    <preference name="SplashScreenDelay" value="10000" />
-    <preference name="SplashScreenBackgroundColor" value="white" />
 </widget>

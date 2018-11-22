@@ -8,9 +8,9 @@
   "author": "Bsmart Group",
   "icons": [
     {
-      "src": "www/img/logo.png",
+      "src": "www/res/icon/windows/Square150x150Logo.scale-100.png",
       "type": "image/png",
-      "sizes": "undefinedxundefined"
+      "sizes": "150x150"
     }
   ],
   "start_url": "index.html"
