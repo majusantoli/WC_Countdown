@@ -16,7 +16,6 @@
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
     <icon height="150" platform="browser" src="www/res/icon/windows/Square150x150Logo.scale-100.png" width="150" />
-    <splash src="res/screen/android/screen.gif" target="SplashScreen" />
     <preference name="SplashScreen" value="screen" />
     <preference name="SplashScreenDelay" value="9000" />
     <preference name="SplashScreenBackgroundColor" value="white" />
