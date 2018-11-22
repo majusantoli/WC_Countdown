@@ -1,0 +1,75 @@
+{
+  "_from": "cordova-plugin-splashscreen@2.0",
+  "_id": "cordova-plugin-splashscreen@2.0.0",
+  "_inBundle": false,
+  "_integrity": "sha1-I4kgZwxLerTPvOnpv0rFBIxpWiU=",
+  "_location": "/cordova-plugin-splashscreen",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "cordova-plugin-splashscreen@2.0",
+    "name": "cordova-plugin-splashscreen",
+    "escapedName": "cordova-plugin-splashscreen",
+    "rawSpec": "2.0",
+    "saveSpec": null,
+    "fetchSpec": "2.0"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-splashscreen/-/cordova-plugin-splashscreen-2.0.0.tgz",
+  "_shasum": "238920670c4b7ab4cfbce9e9bf4ac5048c695a25",
+  "_spec": "cordova-plugin-splashscreen@2.0",
+  "_where": "C:\\Users\\Dell\\Documents\\workspace\\Phonegap\\WC_Countdown",
+  "author": {
+    "name": "Apache Software Foundation"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "cordova-plugin-splashscreen",
+    "platforms": [
+      "android",
+      "amazon-fireos",
+      "ubuntu",
+      "ios",
+      "blackberry10",
+      "wp7",
+      "wp8",
+      "windows8",
+      "windows",
+      "tizen"
+    ]
+  },
+  "deprecated": false,
+  "description": "Cordova Splashscreen Plugin",
+  "engines": [
+    {
+      "name": "cordova-android",
+      "version": ">=3.6.0"
+    }
+  ],
+  "keywords": [
+    "cordova",
+    "splashscreen",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-amazon-fireos",
+    "cordova-ubuntu",
+    "cordova-ios",
+    "cordova-blackberry10",
+    "cordova-wp7",
+    "cordova-wp8",
+    "cordova-windows8",
+    "cordova-windows",
+    "cordova-tizen"
+  ],
+  "license": "Apache 2.0",
+  "name": "cordova-plugin-splashscreen",
+  "repository": {
+    "type": "git",
+    "url": "https://git-wip-us.apache.org/repos/asf/cordova-plugin-splashscreen.git"
+  },
+  "version": "2.0.0"
+}
