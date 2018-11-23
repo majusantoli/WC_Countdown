@@ -27,12 +27,12 @@
     <plugin name="cordova-plugin-network-information" source="npm" spec="~1.3.3" />
     <plugin name="cordova-plugin-vibration" source="npm" spec="~2.1.5" />
     <platform name="browser">
-        <splash src="screen.gif" />
-        <preference name="SplashScreenDelay" value="9000" />
-        <preference name="SplashScreenBackgroundColor" value="white" />
+        <preference name="SplashScreen" value="screen.gif" />
         <icon height="150" platform="browser" src="www/res/icon/windows/Square150x150Logo.scale-100.png" width="150" />
     </platform>
     <platform name="android">
+        <preference name="SplashScreen" value="screen.gif" />
+        <preference name="SplashScreenBackgroundColor" value="white" />
         <splash src="res/screen/android/screen.gif" />
         <icon density="ldpi" src="www/res/icon/android/drawable-ldpi-icon.png" />
         <icon density="mdpi" src="www/res/icon/android/drawable-mdpi-icon.png" />
