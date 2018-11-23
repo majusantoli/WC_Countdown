@@ -39,9 +39,6 @@
     },
     "cordova-plugin-splashscreen": {
       "PACKAGE_NAME": "br.com.wccountdown.app"
-    },
-    "cordova-plugin-x-socialsharing": {
-      "PACKAGE_NAME": "br.com.wccountdown.app"
     }
   },
   "dependent_plugins": {
@@ -49,9 +46,6 @@
       "PACKAGE_NAME": "br.com.wccountdown.app"
     },
     "cordova-plugin-file": {
-      "PACKAGE_NAME": "br.com.wccountdown.app"
-    },
-    "es6-promise-plugin": {
       "PACKAGE_NAME": "br.com.wccountdown.app"
     }
   }
