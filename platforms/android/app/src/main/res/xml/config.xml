@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="br.com.wccountdown.app" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <feature name="SocialSharing">
+        <param name="android-package" value="nl.xservices.plugins.SocialSharing" />
+    </feature>
+    <name>WC Countdown</name>
+    <description>
+        Aplicativo para a contagem regressiva para a próxima copa!
+    </description>
+    <author email="marketing@outfox.com.br" href="http://outfox.com.br">
+        Bsmart Group
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <splash src="www/res/screen/android/screen.gif" />
+    <splash density="land-hdpi" src="www/res/screen/android/screen.gif" />
+    <splash density="land-ldpi" src="www/res/screen/android/screen.gif" />
+    <splash density="land-mdpi" src="www/res/screen/android/screen.gif" />
+    <splash density="land-xhdpi" src="www/res/screen/android/screen.gif" />
+    <splash density="port-hdpi" src="www/res/screen/android/screen.gif" />
+    <splash density="port-ldpi" src="www/res/screen/android/screen.gif" />
+    <splash density="port-mdpi" src="www/res/screen/android/screen.gif" />
+    <splash density="port-xhdpi" src="www/res/screen/android/screen.gif" />
+    <icon density="ldpi" src="www/res/icon/android/drawable-ldpi-icon.png" />
+    <icon density="mdpi" src="www/res/icon/android/drawable-mdpi-icon.png" />
+    <icon density="hdpi" src="www/res/icon/android/drawable-hdpi-icon.png" />
+    <icon density="xhdpi" src="www/res/icon/android/drawable-xhdpi-icon.png" />
+    <icon density="xxhdpi" src="www/res/icon/android/drawable-xxhdpi-icon.png" />
+    <icon density="xxxhdpi" src="www/res/icon/android/drawable-xxxhdpi-icon.png" />
+    <allow-intent href="market:*" />
+    <preference name="loglevel" value="DEBUG" />
+    <preference name="SplashScreen" value="screen" />
+    <preference name="AutoHideSplashScreen" value="false" />
+    <preference name="FadeSplashScreen" value="true" />
+    <preference name="FadeSplashScreenDuration" value="500" />
+    <preference name="ShowSplashScreenSpinner" value="false" />
+    <preference name="SplashMaintainAspectRatio" value="true" />
+    <preference name="SplashScreenDelay" value="10000" />
+    <preference name="SplashScreenBackgroundColor" value="white" />
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="android-minSdkVersion" value="14" />
+</widget>
