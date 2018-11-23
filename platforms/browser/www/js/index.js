@@ -89,3 +89,8 @@ function About(){
         );
 
 } 
+
+ function Share(){
+   window.plugins.socialsharing.share('Estou compartilhando o contador para a Copa!', 'WC Countdown', null, null);
+   /*Mensagem, Assunto, Imagem, Link*/
+  };
