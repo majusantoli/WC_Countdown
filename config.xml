@@ -100,5 +100,5 @@
     <plugin name="cordova-plugin-dialogs" spec="~1.3.4" />
     <plugin name="cordova-plugin-inappbrowser" spec="~1.7.2" />
     <plugin name="cordova-plugin-splashscreen" spec="~2.0.0" />
-    <plugin name="cordova-plugin-x-socialsharing" spec="~4.0.0" />
+    <plugin name="cordova-plugin-x-socialsharing" spec="~4.1.0" />
 </widget>
