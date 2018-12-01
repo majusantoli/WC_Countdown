@@ -5,7 +5,7 @@
   "short_name": "WC Countdown",
   "version": "br.com.wccountdown.app",
   "description": "Aplicativo para a contagem regressiva para a próxima copa!",
-  "author": "Bsmart Group",
+  "author": "Outfox",
   "icons": [
     {
       "src": "www/res/icon/windows/Square150x150Logo.scale-100.png",
