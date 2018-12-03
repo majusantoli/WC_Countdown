@@ -16,11 +16,11 @@ var dd = parseInt(hh / 24);
 ss = ss - (mm * 60);  
 mm = mm - (hh * 60);  
 hh = hh - (dd * 24);   
-var faltam = '<h1>Faltam</h1><div class="relogio"><div class="numero">';  
+var faltam = '<h1 class="textorelogio">Faltam</h1><div class="relogio"><div class="numero">';  
 faltam += (dd && dd > 1) ? dd+' </div><p class="texto">dias</p></div> <div class="relogio"><div class="numero"> ' : (dd==1 ? '1 dia, ' : '');  
 faltam += (toString(hh).length) ? hh+' </div><p class="texto">horas</p></div> <div class="relogio"><div class="numero"> ' : '';  
 faltam += (toString(mm).length) ? mm+' </div><p class="texto">min </p></div> <div class="relogio"><div class="numero">' : '';  
-faltam += ss+' </div><p class="texto">seg</p></div><h1>para a Copa Qatar!</h1>';   
+faltam += ss+' </div><p class="texto">seg</p></div><h1 class="textorelogio">para a Copa Qatar!</h1>';   
 
  if (dd+hh+mm+ss > 0) 
  {

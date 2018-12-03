@@ -6,12 +6,6 @@
   "version": "br.com.wccountdown.app",
   "description": "Aplicativo para a contagem regressiva para a próxima copa!",
   "author": "Outfox",
-  "icons": [
-    {
-      "src": "www/res/icon/windows/Square150x150Logo.scale-100.png",
-      "type": "image/png",
-      "sizes": "150x150"
-    }
-  ],
+  "icons": [],
   "start_url": "index.html"
 }

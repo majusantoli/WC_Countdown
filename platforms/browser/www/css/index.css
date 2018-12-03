@@ -61,7 +61,7 @@ body {
     }
 }
 
-h1 {
+.textorelogio {
     font-size:30px;
     font-weight:600;
     margin:0px;
@@ -111,7 +111,7 @@ h1 {
 }
 
 .footer{
-    background-color: #151719;
+    background-color: #000000;
     color: #fff;
     text-align: center;
     display: block;

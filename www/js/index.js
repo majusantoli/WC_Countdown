@@ -90,25 +90,30 @@ function About(){
 
 } 
 
-function socialsharingDemo() {
-  window.plugins.socialsharing.available(function(isAvailable) {
-    if (isAvailable) {
-      // use a local image from inside the www folder:
-//      window.plugins.socialsharing.share('Some text', 'Some subject', null, 'http://www.nu.nl');
-//      window.plugins.socialsharing.share('Some text');
+function siteMyGadgets() {
+   var url = 'http://mygadgets.com.br';
+   var target = '_blank';
+   var options = "location = yes"
+   var ref = cordova.InAppBrowser.open(url, target, options);
+   
+   ref.addEventListener('loadstart', loadstartCallback);
+   ref.addEventListener('loadstop', loadstopCallback);
+   ref.addEventListener('loaderror', loaderrorCallback);
+   ref.addEventListener('exit', exitCallback);
 
-//      window.plugins.socialsharing.share('test', null, 'data:image/png;base64,R0lGODlhDAAMALMBAP8AAP///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAUKAAEALAAAAAAMAAwAQAQZMMhJK7iY4p3nlZ8XgmNlnibXdVqolmhcRQA7', null, function(e){alert("success: " + e)}, function(e){alert("error: " + e)});
-      window.plugins.socialsharing.share('My text', 'My subject', 'https://www.google.nl/images/srpr/logo11w.png', null, function(){alert("ok")}, function(e){alert("error: " + e)});
-      // alternative usage:
+   function loadstartCallback(event) {
+      console.log('Loading started: '  + event.url)
+   }
 
-      // 1) a local image from anywhere else (if permitted):
-      // window.plugins.socialsharing.share('Some text', 'http://domain.com', '/Users/username/Library/Application Support/iPhone/6.1/Applications/25A1E7CF-079F-438D-823B-55C6F8CD2DC0/Documents/.nl.x-services.appname/pics/img.jpg');
+   function loadstopCallback(event) {
+      console.log('Loading finished: ' + event.url)
+   }
 
-      // 2) an image from the internet:
-//      window.plugins.socialsharing.share('Some text', "Some subject', 'http://domain.com', 'http://domain.com/image.jpg');
+   function loaderrorCallback(error) {
+      console.log('Loading error: ' + error.message)
+   }
 
-      // 3) text and link:
-//      window.plugins.socialsharing.share('Some text and a link', '', '', 'http://www.nu.nl');
-    }
-  });
+   function exitCallback() {
+      console.log('Browser is closed...')
+   }
 }

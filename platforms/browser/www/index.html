@@ -22,8 +22,11 @@
     <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: 'unsafe-inline' https://ssl.gstatic.com; style-src 'self' 'unsafe-inline'; media-src *" /> -->
 
     <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
     <link rel="stylesheet" href="fontawesome/css/all.min.css">
-    <title>WC Countdown</title>
+    <script  src="js/jquery.min.js"></script>
+        <title>WC Countdown</title>
 </head>
 
 <body onLoad="atualizaContador()">
@@ -36,28 +39,34 @@
         <ul>
             <li><img src="img/logo.png" width="139px" height="auto"></li>
             <li><button class="btn" onclick="About()"><i class="fas fa-info-circle"></i> Desenvolvedores</button></li>  
-            <li><button class="btn" onclick="socialsharingDemo()"><i class="fas fa-share-alt-square"></i> Compartilhe</button></li>
-            <li><button class="btn" onclick="openBrowser()"><i class="fas fa-link"></i> Nosso site</button></li>
+            <li><button class="btn" onclick="openBrowser()"><i class="fas fa-link"></i> Nosso site</button></li>  
+            <li><button class="btn" onclick="socialsharingDemo()"><i class="fas fa-share"></i> Compartilhe</button></li>      
         </ul>
     </div>
     <div class="app">
             <span id="contador"></span>
     </div>
     <div class="footer">
-        <p>Outfox 2018</p>
+        <div class="containter">
+            <div class="carousel slide carousel-fade" data-ride="carousel">
+              <div class="carousel-inner">
+                <div onclick="siteMyGadgets()" class="carousel-item active">
+                  <img src="img/bannerpublicidade1.png" alt="First slide">
+                </div>
+                <div onclick="openBrowser()" class="carousel-item">
+                  <img src="img/bannerpublicidade2.png" alt="Second slide">
+                </div>
+              </div>
+            </div>
+        </div>
     </div>
     <script type="text/javascript" src="cordova.js"></script>
     <script type="text/javascript" src="js/index.js"></script>
     <script type="text/javascript" src="js/relogio.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/socialsharing.js"></script>
     <script type="text/javascript">
         app.initialize();
-    </script>
-        <script type="text/javascript">
-        document.addEventListener("deviceready", onDeviceReady, false);
-            function onDeviceReady() {
-              navigator.splashscreen.show();
-            }
     </script>
 </body>
 
