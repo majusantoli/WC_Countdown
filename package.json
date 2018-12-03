@@ -1,1 +1,40 @@
-{"name":"br.com.wccountdown.app","version":"1.0.0","displayName":"WC Countdown","cordova":{"platforms":["android"]},"dependencies":{"cordova-android":"~7.1.3"}}
+{
+  "name": "br.com.wccountdown.app",
+  "version": "1.0.0",
+  "displayName": "WC Countdown",
+  "cordova": {
+    "platforms": [],
+    "plugins": {
+      "cordova-plugin-battery-status": {},
+      "cordova-plugin-camera": {},
+      "cordova-plugin-media-capture": {},
+      "cordova-plugin-device": {},
+      "cordova-plugin-file": {},
+      "cordova-plugin-geolocation": {},
+      "cordova-plugin-globalization": {},
+      "cordova-plugin-network-information": {},
+      "cordova-plugin-vibration": {},
+      "cordova-plugin-dialogs": {},
+      "cordova-plugin-inappbrowser": {},
+      "cordova-plugin-splashscreen": {},
+      "cordova-plugin-x-socialsharing": {
+        "ANDROID_SUPPORT_V4_VERSION": "24.1.1+"
+      }
+    }
+  },
+  "dependencies": {
+    "cordova-plugin-battery-status": "~1.2.4",
+    "cordova-plugin-camera": "~2.4.1",
+    "cordova-plugin-media-capture": "~1.4.3",
+    "cordova-plugin-device": "~1.1.6",
+    "cordova-plugin-file": "~4.3.3",
+    "cordova-plugin-geolocation": "~2.4.3",
+    "cordova-plugin-globalization": "~1.0.7",
+    "cordova-plugin-network-information": "~1.3.3",
+    "cordova-plugin-vibration": "~2.1.5",
+    "cordova-plugin-dialogs": "~1.3.4",
+    "cordova-plugin-inappbrowser": "~1.7.2",
+    "cordova-plugin-splashscreen": "~2.0.0",
+    "cordova-plugin-x-socialsharing": "~5.4.3"
+  }
+}
