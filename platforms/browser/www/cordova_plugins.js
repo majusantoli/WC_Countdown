@@ -451,7 +451,8 @@ module.exports.metadata =
     "cordova-plugin-vibration": "2.1.6",
     "cordova-plugin-splashscreen": "2.0.0",
     "es6-promise-plugin": "4.2.2",
-    "cordova-plugin-x-socialsharing": "5.4.3"
+    "cordova-plugin-x-socialsharing": "5.4.3",
+    "cordova-android-support-gradle-release": "2.0.1"
 }
 // BOTTOM OF METADATA
 });

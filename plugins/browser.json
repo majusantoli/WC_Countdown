@@ -42,6 +42,9 @@
     },
     "cordova-plugin-x-socialsharing": {
       "PACKAGE_NAME": "br.com.wccountdown.app"
+    },
+    "cordova-android-support-gradle-release": {
+      "PACKAGE_NAME": "br.com.wccountdown.app"
     }
   },
   "dependent_plugins": {

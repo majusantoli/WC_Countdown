@@ -19,7 +19,8 @@ module.exports.metadata =
 // TOP OF METADATA
 {
   "es6-promise-plugin": "4.2.2",
-  "cordova-plugin-x-socialsharing": "5.4.3"
+  "cordova-plugin-x-socialsharing": "5.4.3",
+  "cordova-android-support-gradle-release": "2.0.1"
 };
 // BOTTOM OF METADATA
 });
