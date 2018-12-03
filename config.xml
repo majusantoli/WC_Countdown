@@ -8,6 +8,7 @@
         Outfox
     </author>
     <content src="index.html" />
+    <splash src="screen.gif" />
     <preference name="SplashScreen" value="screen" />
     <preference name="AutoHideSplashScreen" value="false" />
     <preference name="FadeSplashScreen" value="true" />
@@ -17,7 +18,7 @@
     <preference name="DisallowOverscroll" value="true" />
     <preference name="android-minSdkVersion" value="14" />
     <platform name="browser">
-        <splash name="SplashScreen" src="www\res\screen\windows\screen.gif" />
+        <splash name="SplashScreen" src="screen.gif" />
     </platform>
     <platform name="android">
         <preference name="SplashScreen" value="screen" />
